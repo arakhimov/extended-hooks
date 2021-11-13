@@ -5,43 +5,43 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <ul className="nav">
         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/">
+          <NavLink className="nav-link" aria-current="page" to="/extended-hooks">
             Main
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/useRef">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/useRef">
             useRef
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/useMemo">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/useMemo">
             useMemo
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/useCallback">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/useCallback">
             useCallback
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/hoc">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/hoc">
             HOC
           </NavLink>
         </li>
 
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/memo">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/memo">
             React.memo
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/cloneElement">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/cloneElement">
             React.cloneElement
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link " aria-current="page" to="/children">
+          <NavLink className="nav-link " aria-current="page" to="/extended-hooks/children">
             React Children
           </NavLink>
         </li>

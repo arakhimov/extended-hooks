@@ -17,16 +17,15 @@ function App() {
       <NavBar />
       <ContainerWrapper>
         <Switch>
-          <Route path="/useCallback" component={UseCalbackExample} />
-          <Route path="/memo" component={MemoExample} />
-          <Route path="/useMemo" component={UseMemoExample} />
-          <Route path="/cloneElement" component={CloneElementExample} />
-          <Route path="/hoc" component={HOCLayout} />
-          <Route path="/children" component={ReactChildren} />
-
-          <Route path="/useRef" component={UseRefExample} />
-          <Route path="/" exact component={Main} />
-          <Redirect to="/" />
+          <Route path="/extended-hooks/useCallback" component={UseCalbackExample} />
+          <Route path="/extended-hooks/memo" component={MemoExample} />
+          <Route path="/extended-hooks/useMemo" component={UseMemoExample} />
+          <Route path="/extended-hooks/cloneElement" component={CloneElementExample} />
+          <Route path="/extended-hooks/hoc" component={HOCLayout} />
+          <Route path="/extended-hooks/children" component={ReactChildren} />
+          <Route path="/extended-hooks/useRef" component={UseRefExample} />
+          <Route path="/extended-hooks" exact component={Main} />
+          <Redirect to="/extended-hooks" />
         </Switch>
       </ContainerWrapper>
     </>
